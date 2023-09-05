@@ -41,22 +41,22 @@
 
 
 # 5. Чётные против нечётных
-even = 0
-odd = 0
-line = input()
-list_substrings = line.split()
-
-for x in list_substrings:
-    if int(x) % 2 == 0:
-        even += 1
-    else:
-        odd += 1
-
-if even > odd:
-    result = 'even'
-elif even < odd:
-    result = 'odd'
-else:
-    result = 'equal'
-
-print(result)
+# even = 0
+# odd = 0
+# line = input()
+# list_substrings = line.split()
+#
+# for x in list_substrings:
+#     if int(x) % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+#
+# if even > odd:
+#     result = 'even'
+# elif even < odd:
+#     result = 'odd'
+# else:
+#     result = 'equal'
+#
+# print(result)
